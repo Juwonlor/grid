@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: o;
+    background-color: rgb(241, 230, 209);
+}
+.wrapper{
+    width: 70%;
+    margin: auto;
+}
+.container{
+background-color: white;
+padding: 2rem;
+padding-top: 1rem;
+}
+.section1{
+    display: flex;
+flex-direction: row;
+color: white;
+}
+.sectiona{
+background-color: aqua;
+}
+.sectionb{
+background-color: turquoise;
+}
+.sectiona, .sectionb{
+padding: 1.5rem; 
+padding-top: 1rem;
+width: 50%;
+}
+.cash{
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    color: aqua; 
+}
+h2{
+    color: greenyellow;
+}
+button{
+    height: 3rem;
+    width: 15rem;
+    background-color: greenyellow;
+    color: white;
+    border-color:  greenyellow;
+    box-shadow:color(from color srgb r g b);
+}
+button:hover{
+    background-color: black;
+    color: yellow;
+}
+#m{
+    font-size: 40px;
+    color: white;
+}
+.per{
+    font: 15px;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    font-style: unset;
+}
+#month1, #why{
+    color: white;
+}
+@media (max-width: 800px){
+    .container{
+        padding-top: .5rem;
+        padding: .5rem;
+    }
+    .section1{
+    width: 100%;
+    display: block;
+    font-size: 12px;
+    }
+    .sectiona{
+        padding-top: 5px;
+    }
+    .sectiona, .sectionb{
+        padding-left: 60px;
+        padding-right: 66px;
+        padding-top: .5rem;
+        padding-bottom: 5rem;
+    }
+    button{
+        width: 10rem;
+        height: 2rem;
+    }
